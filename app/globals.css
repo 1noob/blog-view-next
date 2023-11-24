@@ -89,8 +89,8 @@
       @apply border-t pt-2;
     }
 
-    dt:not(:first-of-type),
-    dd:not(:first-of-type) {
+    & > dt:not(:first-of-type),
+    & > dd:not(:first-of-type) {
       @apply border-t border-dashed py-2;
     }
 
