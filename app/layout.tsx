@@ -14,15 +14,15 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Alex Carpenter",
-    template: "%s // Alex Carpenter",
+    default: "Song",
+    template: "%s // Song",
   },
   description: "Web Engineer",
   openGraph: {
-    title: "Alex Carpenter",
+    title: "Song",
     description: "Web Engineer",
-    url: "https://alexcarpenter.me",
-    siteName: "Alex Carpenter",
+    url: "https://blog.jackey.love",
+    siteName: "Song",
     locale: "en-US",
     type: "website",
   },
@@ -38,24 +38,21 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Alex Carpenter",
+    title: "Song",
     description: "Web Engineer",
     card: "summary",
   },
   icons: {
-    shortcut: "/favicon.svg",
+    shortcut: "/FinderIcon.png",
   },
   verification: {
     other: {
-      "ahrefs-site-verification":
-        "23cb571e5b7e73cceaf780eef248f7f22c030dc0194ddc7b2acdb4e0c35e5e84",
-      "google-site-verification": "nfhrXCwuzTQjasCO0xSgZ0BE92C7e45vkEgs1a6AtII",
     },
   },
-  metadataBase: new URL("https://alexcarpenter.me"),
+  metadataBase: new URL("https://blog.jackey.love"),
   alternates: {
     types: {
-      "application/rss+xml": "https://alexcarpenter.me/atom",
+      "application/rss+xml": "https://blog.jackey.love/atom",
     },
   },
 };
@@ -83,25 +80,25 @@ export default function RootLayout({
                 PROD
               </abbr>
               <Link
-                href="https://github.com/alexcarpenter/alexcarpenter.me"
+                href="https://github.com/1noob/blog-view-next"
                 className="rounded-sm border bg-neutral-100 px-1.5 py-0.5 text-sm text-primary dark:bg-neutral-800"
               >
-                v2.1.0
+                v2
               </Link>
             </div>
 
             <p className="font-semibold text-primary">
-              <Link href="/">Alex Carpenter</Link>&nbsp;&not;
+              <Link href="/">Song</Link>&nbsp;&not;
             </p>
             <p className="text-secondary">
               Web Engineer at{" "}
               <a
-                href="https://watershed.com"
+                href=""
                 className="underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Watershed
+                Home
               </a>
             </p>
           </header>
