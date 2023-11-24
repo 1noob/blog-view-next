@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: {
     default: "Song",
-    template: "%s // Song",
+    template: "%s - Song",
   },
   description: "Web Engineer",
   openGraph: {
