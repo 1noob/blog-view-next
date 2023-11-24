@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary",
   },
   icons: {
-    shortcut: "/FinderIcon.png",
+    shortcut: "/icon.png",
   },
   verification: {
     other: {
