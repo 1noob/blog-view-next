@@ -45,10 +45,6 @@ export const metadata: Metadata = {
   icons: {
     shortcut: "/icon.png",
   },
-  verification: {
-    other: {
-    },
-  },
   metadataBase: new URL("https://blog.jackey.love"),
   alternates: {
     types: {
