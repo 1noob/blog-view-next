@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Song",
     description: "Web Engineer",
     url: "https://blog.jackey.love",
-    images: "/icon/opengraph-image.png",
+    images: "/opengraph-image.png",
     siteName: "Song",
     locale: "en-US",
     type: "website",
@@ -42,11 +42,10 @@ export const metadata: Metadata = {
     title: "zhousongjie",
     description: "Web Engineer",
     card: "summary",
-    images: "/icon/twitter-image.png"
   },
   icons: {
     icon: "/icon.png",
-    apple: "/icon/apple-touch-icon.png",
+    apple: "/apple-touch-icon.png",
   },
   metadataBase: new URL("https://blog.jackey.love"),
   alternates: {
