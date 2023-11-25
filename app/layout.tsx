@@ -45,8 +45,7 @@ export const metadata: Metadata = {
     images: "/icon/twitter-image.png"
   },
   icons: {
-    shortcut: "/favicon.png",
-    icon: "/favicon.png",
+    icon: "/icon.png",
     apple: "/icon/apple-touch-icon.png",
   },
   metadataBase: new URL("https://blog.jackey.love"),
