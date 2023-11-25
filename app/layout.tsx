@@ -91,7 +91,7 @@ export default function RootLayout({
             <p className="text-secondary">
               Web Engineer at{" "}
               <a
-                href="https://vjudge.net/user/asd812491923"
+                href="https://www.jackey.love"
                 className="underline"
                 target="_blank"
                 rel="noopener noreferrer"
