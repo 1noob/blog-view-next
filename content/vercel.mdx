@@ -1,0 +1,48 @@
+---
+title: Fix MixContent by Vercel
+description: 跳过备案部署自己的个人网站
+published: 2023-11-11
+---
+
+import { Columns } from "../components/columns";
+
+
+## 前言
+
+现在只要部署在国内服务器必须备案才能访问，有的只是限制 80 端口，有的查你 dns。现在备案最麻烦的是要你各种证件，还得摁个手印上传，着实没以前方便快捷。
+
+而且不备案用不了 ssl 的话，前后端分离项目会有个坑：前端 https 请求后端 http api 会被浏览器拦截，返一个 MixContent 的错误。就算服务器自签一个 ssl，也就 chrome 能让你访问，像 safari 一样给你拦下来。
+
+最近捡回以前的项目，发现 n 年前部署的项目：[JackeyLove](https:jackey.love) 还在，只是因为 dns 污染国内访问不了，登陆 vercel 发现，现在可以给 domain 提供 dns 服务了，也就是说国内也能正常访问了。
+
+---
+## 配置
+
+Vercel 怎么用不多说了，直接进重点：
+
+<Columns count={"one"}>
+  - 你在 Vercel 的前端项目 domain 地址：https://your-domain-url
+  - 请求的后端 api 地址：http://your-api-url
+</Columns>
+
+首先前端项目加一个 vercel.json：
+
+``` json
+{
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "http://your_api_url/$1"
+    }
+  ]
+}
+```
+
+接着把你的 api 请求改成：https://you-domain-url/api/
+
+以上，部署即可。
+
+---
+## 原理
+
+原理很简单，请求改成前端项目的 url，浏览器会解析到 vercel 服务器上，json 文件用正则把请求写给正确的地址，让 vercel 的服务器去请求数据，这样就避免浏览器 MixContent 的问题，同时跳过备案拦截。
