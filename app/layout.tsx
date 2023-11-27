@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: "Song",
     template: "%s - Song",
   },
-  description: "Web Engineer",
+  description: "Software Engineer",
   openGraph: {
     title: "Song",
-    description: "Web Engineer",
+    description: "Software Engineer",
     url: "https://blog.jackey.love",
     images: "/opengraph-image.png",
     siteName: "Song",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: "zhousongjie",
-    description: "Web Engineer",
+    description: "Software Engineer",
     card: "summary",
   },
   icons: {
@@ -89,14 +89,14 @@ export default function RootLayout({
               <Link href="/">Song</Link>&nbsp;&not;
             </p>
             <p className="text-secondary">
-              Web Engineer at{" "}
+              Software Engineer at{" "}
               <a
-                href="https://www.jackey.love"
+                href="https://github.com/1noob"
                 className="underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Home
+                GitHub
               </a>
             </p>
           </header>
