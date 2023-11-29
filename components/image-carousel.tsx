@@ -6,7 +6,7 @@ import { tv } from "@/app/utils";
 import { useRovingIndex } from "use-roving-index";
 
 interface CarouselProps {
-  aspectRatio?: "16/9" | "4/3" | "3/2";
+  aspectRatio?: "16/9" | "4/3" | "3/2" | "1/1";
   items: ImageProps[];
 }
 
