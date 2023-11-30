@@ -45,7 +45,6 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/icon.png",
-    apple: "/apple-touch-icon.jpg",
   },
   metadataBase: new URL("https://blog.jackey.love"),
   alternates: {

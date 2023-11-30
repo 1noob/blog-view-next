@@ -16,6 +16,11 @@ export async function GET() {
             <name>Song</name>
             <email>zhouzhou.plays@gmail.com</email>
           </author>
+          <link
+                rel="apple-touch-icon"
+                sizes="180x180"
+                href="/apple-touch-icon.jpg"
+            />
           <meta name="apple-mobile-web-app-capable" content="yes" />
       ${allPages
         .filter(({ draft }) => !draft)
