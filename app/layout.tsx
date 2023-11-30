@@ -49,7 +49,8 @@ export const metadata: Metadata = {
   appleWebApp: {
     // <meta name="apple-mobile-web-app-capable" content="yes" />
     capable: true,
-    title: "Song"
+    title: "Song",
+    statusBarStyle: "black-translucent",
   },
   metadataBase: new URL("https://blog.jackey.love"),
   alternates: {
