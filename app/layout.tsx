@@ -44,15 +44,7 @@ export const metadata: Metadata = {
     card: "summary",
   },
   icons: [
-    {
-      rel: "icon",
-      url: "/icon.png"
-    },
-    {
-      rel: "apple-touch-icon",
-      sizes: "180x180",
-      url: "/apple-touch-icon.jpg"
-    }
+    // 这玩意没用，直接按它格式命名文件才行
   ],
   metadataBase: new URL("https://blog.jackey.love"),
   alternates: {
