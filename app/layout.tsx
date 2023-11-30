@@ -43,9 +43,17 @@ export const metadata: Metadata = {
     description: "Software Engineer",
     card: "summary",
   },
-  icons: {
-    icon: "/icon.png",
-  },
+  icons: [
+    {
+      rel: "icon",
+      url: "/icon.png"
+    },
+    {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      url: "/apple-touch-icon"
+    }
+  ],
   metadataBase: new URL("https://blog.jackey.love"),
   alternates: {
     types: {
