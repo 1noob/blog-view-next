@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      url: "/apple-touch-icon"
+      url: "/apple-touch-icon.jpg"
     }
   ],
   metadataBase: new URL("https://blog.jackey.love"),
