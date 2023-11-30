@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary",
   },
   icons: [
-    // 这玩意没用，直接按它格式命名文件才行
+    // 直接按它格式命名文件就行
   ],
   metadataBase: new URL("https://blog.jackey.love"),
   alternates: {
