@@ -46,6 +46,11 @@ export const metadata: Metadata = {
   icons: [
     // 直接按它格式命名文件就行
   ],
+  appleWebApp: {
+    // <meta name="apple-mobile-web-app-capable" content="yes" />
+    capable: true,
+    title: "Song"
+  },
   metadataBase: new URL("https://blog.jackey.love"),
   alternates: {
     types: {

@@ -16,7 +16,6 @@ export async function GET() {
             <name>Song</name>
             <email>zhouzhou.plays@gmail.com</email>
           </author>
-          <meta name="apple-mobile-web-app-capable" content="yes" />
       ${allPages
         .filter(({ draft }) => !draft)
         .slice(0, max)
