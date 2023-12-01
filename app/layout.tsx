@@ -85,7 +85,7 @@ export default function RootLayout({
                 href="https://github.com/1noob/blog-view-next"
                 className="rounded-sm border bg-neutral-100 px-1.5 py-0.5 text-sm text-primary dark:bg-neutral-800"
               >
-                v2
+                Next.js
               </Link>
             </div>
 
