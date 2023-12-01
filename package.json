@@ -40,6 +40,7 @@
     "use-roving-index": "^2.0.0"
   },
   "devDependencies": {
+    "depcheck": "^1.4.7",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8"
   }
