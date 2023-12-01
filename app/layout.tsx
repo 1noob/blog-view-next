@@ -47,7 +47,6 @@ export const metadata: Metadata = {
     // 直接按它格式命名文件就行
   ],
   appleWebApp: {
-    // <meta name="apple-mobile-web-app-capable" content="yes" />
     capable: true,
     title: "Song",
     statusBarStyle: "black-translucent",
