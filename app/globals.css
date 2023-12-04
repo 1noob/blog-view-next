@@ -219,12 +219,9 @@ html.light code[data-theme="dark"] {
     border-bottom-right-radius: 100%;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
-    flex-shrink: 0;
     height: 10px;
-    letter-spacing: -0.14px;
     line-height: 20px;
     width: 10px;
-    -webkit-font-smoothing: antialiased;
 }
 
 .rounded-md{
