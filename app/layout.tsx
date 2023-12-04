@@ -74,18 +74,17 @@ export default function RootLayout({
       >
         <Providers>
           <header className="mb-6 flex flex-col">
+
             <div className="mb-4 ml-auto flex gap-1">
-              <abbr
-                title="Production"
-                className="rounded-sm border border-transparent bg-highlight px-1.5 py-0.5 text-sm text-white no-underline"
-              >
-                PROD
-              </abbr>
               <Link
                 href="https://github.com/1noob/blog-view-next"
-                className="rounded-sm border bg-neutral-100 px-1.5 py-0.5 text-sm text-primary dark:bg-neutral-800"
+                className="rounded-md hover:bg-neutral-100 p-1.5 text-sm text-blue dark:hover:bg-neutral-700 duration-300 tracking-tight"
               >
-                Next.js
+                <div className="gap-1.5 flex items-center word-space font-medium">
+                  <span className="status-indicator block">
+                  </span>
+                  Prod Next.js
+                </div>
               </Link>
             </div>
 

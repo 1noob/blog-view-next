@@ -24,6 +24,7 @@ module.exports = withTV({
       textColor: {
         primary: "rgb(var(--foreground-primary))",
         secondary: "rgb(var(--foreground-secondary))",
+        blue: "rgb(0, 112, 243)",
       },
       borderColor: {
         DEFAULT: "rgb(var(--border))",

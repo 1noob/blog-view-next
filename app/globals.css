@@ -211,3 +211,28 @@ html.light pre[data-theme="dark"],
 html.light code[data-theme="dark"] {
     display: none;
 }
+
+
+.status-indicator {
+    background-color: rgb(0, 112, 243);
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    flex-shrink: 0;
+    height: 10px;
+    letter-spacing: -0.14px;
+    line-height: 20px;
+    width: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.rounded-md{
+    border-radius: 0.25rem;
+}
+
+.word-space{
+    word-spacing: -0.2rem;
+}
+
+
