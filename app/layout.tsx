@@ -5,6 +5,7 @@ import Link from "next/link";
 import { cx } from "@/app/utils";
 import { Analytics } from "./analytics";
 import { Providers } from "./providers";
+import React from "react";
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
@@ -26,17 +27,6 @@ export const metadata: Metadata = {
     siteName: "Song",
     locale: "en-US",
     type: "website",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
   twitter: {
     title: "zhousongjie",
