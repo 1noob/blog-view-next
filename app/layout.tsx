@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "Song",
     description: "Software Engineer",
     url: "https://blog.jackey.love",
-    images: "/opengraph-image.png",
+    images: "/opengraph-image.jpg",
     siteName: "Song",
     locale: "en-US",
     type: "website",
