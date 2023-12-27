@@ -50,7 +50,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `https://blog.jackey.love/${slug}`,
+      url: `https://song.jackey.love/${slug}`,
     },
     twitter: {
       title,

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Song",
     description: "Software Engineer",
-    url: "https://blog.jackey.love",
+    url: "https://song.jackey.love",
     images: "/opengraph-image.jpg",
     siteName: "Song",
     locale: "en-US",
@@ -41,10 +41,10 @@ export const metadata: Metadata = {
     title: "Song",
     statusBarStyle: "black-translucent",
   },
-  metadataBase: new URL("https://blog.jackey.love"),
+  metadataBase: new URL("https://song.jackey.love"),
   alternates: {
     types: {
-      "application/rss+xml": "https://blog.jackey.love/atom",
+      "application/rss+xml": "https://song.jackey.love/atom",
     },
   },
 };
@@ -67,7 +67,7 @@ export default function RootLayout({
 
             <div className="mb-4 ml-auto flex gap-1">
               <Link
-                href="https://github.com/1noob/blog-view-next"
+                href="https://github.com/1noob/next-song"
                 className="rounded-md hover:bg-neutral-100 p-1.5 text-sm text-blue dark:hover:bg-neutral-700 duration-300 tracking-tight"
               >
                 <div className="gap-1.5 flex items-center word-space font-medium">

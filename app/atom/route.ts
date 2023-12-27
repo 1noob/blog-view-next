@@ -6,15 +6,15 @@ export async function GET() {
   return new Response(
     `<?xml version="1.0" encoding="utf-8"?>
           <feed xmlns="http://www.w3.org/2005/Atom">
-          <title>ZHOU SONGJIE</title>
+          <title>Song</title>
           <subtitle>Web engineer</subtitle>
-          <link href="https://blog.jackey.love/atom" rel="self"/>
-          <link href="https://blog.jackey.love/"/>
+          <link href="https://song.jackey.love/atom" rel="self"/>
+          <link href="https://song.jackey.love/"/>
           <updated>${latest.updated ? latest.updated : latest.published}</updated>
-          <id>https://blog.jackey.love/</id>
+          <id>https://song.jackey.love/</id>
           <author>
             <name>Song</name>
-            <email>zhouzhou.plays@gmail.com</email>
+            <email>song@jackey.love</email>
           </author>
       ${allPages
         .filter(({ draft }) => !draft)
