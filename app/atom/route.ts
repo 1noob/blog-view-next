@@ -25,7 +25,7 @@ export async function GET() {
             <id>${post._id}</id>
             <title>${post.title}</title>
             <description>${post.description}</description>
-            <link href="https://blog.jackey.love/${post.slug}"/>
+            <link href="https://song.jackey.love/${post.slug}"/>
             <updated>${post.updated ? post.updated : post.published}</updated>
           </entry>`;
         }, "")}
